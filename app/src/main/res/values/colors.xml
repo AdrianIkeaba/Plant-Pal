@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#00794D</color>
+    <color name="primary_dark">#181A20</color>
+    <color name="primary_accent">#1F222A</color>
+    <color name="statusBar">#D8DAD9</color>
+    <color name="primary_light">#8ACC83</color>
+    <color name="light_primary">#808ACC83</color>
+    <color name="unactivated">#CE858585</color>
+
 </resources>

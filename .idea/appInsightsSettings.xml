@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ghostdev.plantpal" />
+                  <option name="mobileSdkAppId" value="1:82354405352:android:9a884ed181fec996fd2e5d" />
+                  <option name="projectId" value="plant-pal-bac36" />
+                  <option name="projectNumber" value="82354405352" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

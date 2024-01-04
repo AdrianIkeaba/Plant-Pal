@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Plant Pal</string>
+    <string name="plant_pal_name">Plant Pal</string>
+    <string name="plant_pal_sub">Your personal plant guide buddy!</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="sign_in_button">Already have a plant pal? <font color="#8ACC83">Sign in here.</font></string>
+    <string name="sign_up_heading">Get a Plant Pal Today</string>
+    <string name="sign_up_subheading">Create your Plant Pal Account Today.</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="already_have_an_account">Already have an account? <font color="#00794D">Login</font></string>
+    <string name="or_text">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="sign_in_heading">Welcome back!👋🏼</string>
+    <string name="sign_in_subheading">Let\'s Continue Our Green Journey</string>
+    <string name="remember_me_text">Remember me</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="create_acccount_text">Don\'t have a pal yet? <font color="#00794D">Sign up</font></string>
+    <string name="forgot_password_heading">Forgot Your Password? 🔑</string>
+    <string name="forgot_pasword_subheading">Enter the email address associated with your Plant Pal account. We\'ll send you a one-time verification passcode to reset your password.</string>
+    <string name="registered_email_text">Registered Email</string>
+    <string name="registered_email_hint">Registered email</string>
+    <string name="send_otp_code_button_text">Send OTP Code</string>
+    <string name="enter_otp_code_heading">Enter OTP Code 🔐</string>
+    <string name="enter_otp_code_subheading">Please check your email inbox for a message from Plant Pal. Enter the one-time verification code below.</string>
+    <string name="enter_otp_verify_button_text">Verify OTP</string>
+    <string name="resend_otp_text_timer">You can resend the OTP in <font color="#00794D">60 </font>seconds.</string>
+    <string name="resend_otp_text">Resend code</string>
+    <string name="new_password_heading">Secure Your Account 🔒</string>
+    <string name="new_password_subheading">Almost there! Create a new password for your Plant Pal account to keep it secure. Remember to choose a strong and unique password.</string>
+    <string name="new_password_text">New Password</string>
+    <string name="new_password_confirm_text">Confirm New Password</string>
+    <string name="new_password_hint">Enter your new password</string>
+    <string name="new_password_confirm_hint">Confirm your new password</string>
+    <string name="save_new_password_text">Save New Password</string>
+    <string name="all_set_text">You\'re All Set!</string>
+    <string name="all_set_sub">Your garden key has been updated.</string>
+    <string name="go_to_homepage_button_text">Go to Homepage</string>
+    <string name="diagnose_text">Diagnose</string>
+    <string name="my_plants_text">My Garden</string>
+    <string name="my_account_text">My Account</string>
+    <string name="home_text">Home</string>
 </resources>
