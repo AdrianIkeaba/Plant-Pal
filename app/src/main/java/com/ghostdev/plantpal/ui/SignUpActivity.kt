@@ -16,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ghostdev.plantpal.R
 import com.ghostdev.plantpal.databinding.ActivitySignUpBinding
 import com.google.android.material.textfield.TextInputLayout
-import kotlinx.coroutines.delay
 
 @Suppress("DEPRECATION")
 class SignUpActivity : AppCompatActivity() {
@@ -67,7 +66,7 @@ class SignUpActivity : AppCompatActivity() {
             progressIndicator.visibility = View.VISIBLE
             val handler = Handler(Looper.getMainLooper())
             handler.postDelayed({
-                val intent = Intent(this, HomePageActivity::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()
             }, 3000)

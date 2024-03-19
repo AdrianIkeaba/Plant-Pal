@@ -1,37 +1,43 @@
 package com.ghostdev.plantpal.ui
 
-import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.viewpager2.widget.ViewPager2
 import com.ghostdev.plantpal.R
+import com.ghostdev.plantpal.adapter.HomePageAdapter
 import com.ghostdev.plantpal.databinding.ActivityHomePageBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-@Suppress("DEPRECATION")
-class HomePageActivity : AppCompatActivity() {
+
+class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomePageBinding
     private lateinit var bottomNav: BottomNavigationView
+    private lateinit var viewPager: ViewPager2
+    private lateinit var homePageAdapter: HomePageAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomePageBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        window?.decorView?.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-        window?.statusBarColor = Color.TRANSPARENT
 
         bottomNav = binding.bottomNavigation
+        viewPager = binding.viewPager
+        homePageAdapter = HomePageAdapter(this)
+
+        //ViewPager Init
+        viewPager.orientation = ViewPager2.ORIENTATION_HORIZONTAL
+        viewPager.adapter = homePageAdapter
+        viewPager.isUserInputEnabled = false
 
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.page_1 -> {
-
+                    viewPager.currentItem = 0
 
                     true
                 }
 
                 R.id.page_2 -> {
-
+                    viewPager.currentItem = 1
 
                     true
                 }

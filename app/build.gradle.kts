@@ -88,4 +88,7 @@ dependencies {
     //AndroidSVG
     implementation ("com.caverock:androidsvg:1.4")
 
+    //Shimmer
+    implementation("com.facebook.shimmer:shimmer:0.1.0@aar")
+
 }

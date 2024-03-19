@@ -44,4 +44,19 @@
     <string name="my_plants_text">My Garden</string>
     <string name="my_account_text">My Account</string>
     <string name="home_text">Home</string>
+    <string name="search_plant_text" />
+    <string name="search_plants_hint">Search plants...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_articles_text">Popular Articles</string>
+    <string name="view_all_text">View All</string>
+    <string name="ask_experts_text">Ask Plant Experts</string>
+    <string name="ask_plant_experts_subheading">Our certified botanists are ready to help with your problems.</string>
+    <string name="ask_expert_button_text">Ask the experts</string>
+    <string name="explore_plant_text">Explore Plants</string>
+    <string name="notifications_text">Notifications</string>
+    <string name="no_notifications_text">No notifications at \nthe moment :(</string>
+    <string name="bookmarks_text">My Bookmarks</string>
+    <string name="plant_select_text">Plants</string>
+    <string name="article_select_text">Articles</string>
 </resources>
